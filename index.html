@@ -9,22 +9,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
-    <title>Ресторан</title>
+    <title>Кафе</title>
 </head>
 <body>
 
 <div class='header'>
-    <div class='container'>
+    <div class='container' id="main">
         <div class='header-line'>
             <div class='header-logo'>
                 <img src="logo.png" alt="">
             </div>
 
             <div class='nav'>
-                <a class='nav-item' href="@">ГЛАВНАЯ</a>
-                <a class='nav-item' href="@">МЕНЮ</a>
-                <a class='nav-item' href="@">О НАС</a>
-                <a class='nav-item' href="@">БРОНЬ</a>
+                <a class='nav-item' href="#main">ГЛАВНАЯ</a>
+                <a class='nav-item' href="#menu">МЕНЮ</a>
+                <a class='nav-item' href="#about">О НАС</a>
+                <a class='nav-item' href="#reserv">БРОНЬ</a>
             </div>
 
             <div class='cart'>
@@ -39,7 +39,7 @@
                         <img src="phone.png" alt="">
                     </div>
 
-                    <div class='number'><a class='num' href='#'>+999-888-76-54</a></div>
+                    <div class='number'><a class='num' href='#'>8-800-555-35-35</a></div>
                 </div>
 
                 <div class='phone-text'>
@@ -59,7 +59,7 @@
                 Добро пожаловать в
 
                 <div class='header-subtitle'>
-                    Наш ресторан
+                    Наше кафе
                 </div>
 
                 <div class='header-suptitle'>
@@ -67,7 +67,7 @@
                 </div>
 
                 <div class='header-bth'>
-                    <a href='#' class='header-button'>VIEW MENU</a>
+                    <a href='#' class='header-button'>Просмотр меню</a>
                 </div>
 
             </div>
@@ -78,7 +78,7 @@
 
 </div>
 
-<div class='cards'>
+<div class='cards' id="about">
 
     <div class='container'>
 
@@ -182,12 +182,12 @@
 
 <div class='black-block'>
 
-    <div class='container'>
+    <div class='container' id="reserv">
 
         <div class='block-holder'>
             <div class='left'>
                 <div class='left-title'>
-                    Отпразднуйте в одном из <br> самых лучших ресторанов.
+                    Отпразднуйте в одном из <br> самых лучших кафе.
                 </div>
 
                 <div class='left-text'>
@@ -215,7 +215,7 @@
             Наши <span>Блюда</span>
         </div>
 
-        <div class='burgers'>
+        <div class='burgers' id="menu">
             <div class='burgers-image'>
                 <img src='pizza.jpg' class='pizza'>
             </div>
